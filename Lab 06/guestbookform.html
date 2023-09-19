@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web application development" />
+    <meta name="keywords" content="PHP" />
+    <meta name="author" content="Rubie" />
+    <title>Updating the Guest Book System</title>
+</head>
+<body>
+    <h1>Web Programming Form - Lab 6</h1>
+<hr>
+<form action="guestbooksave.php" method="POST">
+    <fieldset> <!--Draw the box-->
+        <legend>Enter your details to sign our guest book</legend> <!--Box caption-->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br> <!--Break-->
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <br> <!--Break-->
+        <button type="submit" value="submit">Sign</button>
+        <button type="submit" value="submit">Reset Form</button>
+    </fieldset>
+</form>
+    <a href="guestbookshow.php">Show Guest Book</a>
+</body>
+</html>
