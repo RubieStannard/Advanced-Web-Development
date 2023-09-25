@@ -1,0 +1,137 @@
+/* Whole page */
+html {
+	height: 100%;
+	font-family: 'Helveltica', sans-serif;
+}
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+body {
+	margin:0;
+    height: 100%;
+    font-family: 'Helveltica', sans-serif;
+}
+
+/* Naigation bar */
+.button {
+	border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+}
+
+.block {
+	display:block;
+    width:100%
+}
+
+.col {
+	float:left;
+    width:100%;
+    padding:0 8px
+}
+
+.col.s3 {
+	width:24.9%
+}
+
+.top,.bottom {
+	top:0;
+    position:fixed;
+    width:100%;
+    z-index:1
+}
+
+.padding {
+	padding:8px 16px
+}
+
+.black {
+	color:white;
+    background-color:black
+}
+.button:hover {
+	color:black;
+    background-color:#D3D3D3
+}
+
+.light-grey,.hover-light-grey:hover {
+	color:black;
+    background-color:#D3D3D3
+}
+
+.container,.row:after {
+	content:"";
+	display:table;
+	clear:both
+}
+
+/* Header image */
+.img {
+	background-position: center;
+	background-size: cover;
+	background-image: url(style/header_image.png);
+	min-height: 75%;
+}
+
+.display-middle {
+	position:absolute;
+	top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%)
+}
+
+.center {
+	text-align:center
+}
+
+/* Page title */
+.tag {
+	background-color:black;
+	color:white;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center
+}
+
+.container {
+	padding:0.01em 16px
+}
+
+.padding-32 {
+	padding-top:32px;
+    padding-bottom:32px
+}
+
+/* Post job form description box */
+label {
+	width: 100px;
+    display: inline-block;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+/* Post job form buttons */
+.btn-float-left {
+	float: left;	
+}
+
+.btn-float-right {
+	float: right;
+}
+
+/* Footer */
+footer {
+	text-align:center;
+	color:black;
+	background-color:#D3D3D3;
+	padding-top:8px;
+	padding-bottom:8px;
+}
