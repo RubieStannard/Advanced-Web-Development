@@ -1,0 +1,137 @@
+/* Whole page */
+html {
+	height: 100%;
+	font-family: 'Helveltica', sans-serif;
+}
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+body {
+	margin: 0;
+    height: 100%;
+    font-family: 'Helveltica', sans-serif;
+}
+
+/* Naigation bar */
+.button {
+	border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.block {
+	display: block;
+    width: 100%;
+}
+
+.col {
+	float: left;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.col.s3 {
+	width: 24.9%;
+}
+
+.top,.bottom {
+	top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.padding {
+	padding: 8px 16px;
+}
+
+.black {
+	color: white;
+    background-color: black;
+}
+
+.button:hover {
+	color: black;
+    background-color: #D3D3D3;
+}
+
+.light-grey,.hover-light-grey:hover {
+	color: black;
+    background-color: #D3D3D3;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Page title */
+.tag {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+.container {
+	padding: 0.01em 16px;
+}
+
+.center {
+	text-align: center;
+}
+
+.padding-32 {
+	padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* Buttons */
+.btn-float-left {
+	float: left;	
+}
+
+.btn-float-right {
+	float: right;
+}
+
+/* Pagination */
+.pagination {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn-left,.btn-right {
+    display: inline-block;
+    padding: 10px;
+}
+
+.btn-left {
+    float: left;
+	font-size: 18px;
+}
+
+.btn-right {
+    float: right;
+	font-size: 18px;
+}
+
+/* Footer */
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color: black;
+	width: 100%;
+	background-color: #D3D3D3;
+	height: 40px;
+}
